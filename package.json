@@ -7,16 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
 
+
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sureshmurali/My-Portfolio.git"
   },
-  "author": "Suresh Murali",
+  "author": "Roy",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sureshmurali/My-Portfolio/issues"
