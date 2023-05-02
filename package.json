@@ -3,25 +3,29 @@
   "version": "1.0.0",
   "description": "Suresh Murali's Portfolio",
   "main": "App.js",
+
+
+  "homepage": "https://october-review.github.io/portfolio",
+
+
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "predeploy": "npm run build",
-
-
-    "deploy": "gh-pages -d build"
+    "build": "parcel build src/index.html"
+   
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sureshmurali/My-Portfolio.git"
+    "url": "git+https://github.com/October-review/portfolio.git"
   },
   "author": "Roy",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sureshmurali/My-Portfolio/issues"
   },
-  "homepage": "https://github.com/sureshmurali/My-Portfolio#readme",
+
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
